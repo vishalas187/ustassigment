@@ -2,10 +2,10 @@ name:summa
 
 on:
   push:
-    branches: ['master']
+    branches: 
+        -main
   
-  
-  workflow_dispatch
+ workflow_dispatch:
 
 
 jobs:

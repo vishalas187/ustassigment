@@ -3,7 +3,7 @@ name:summa
 on:
   push:
     branches:
-      -master
+      - master
   
   
   workflow_dispatch:
@@ -14,15 +14,15 @@ jobs:
       runs-on: ubuntu-latest
 
       steps:
-        -name: summa
-         run: echo "i am happy"
+        - name: summa
+          run: echo "i am happy"
 
     deploy:
       runs-on: ubuntu-latest
 
       steps:
-        -name: deploy
-         run: echo "i am deply"
+        - name: deploy
+          run: echo "i am deply"
 
 
 

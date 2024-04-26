@@ -1,28 +1,26 @@
-name:summa
+name: summa
 
 on:
   push:
     branches:
       - master
-  
-  
   workflow_dispatch:
 
-
 jobs:
-    build:
-      runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-      steps:
-        - name: summa
-          run: echo "i am happy"
+    steps:
+      - name: summa
+        run: echo "i am happy"
 
-    deploy:
-      runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-latest
 
-      steps:
-        - name: deploy
-          run: echo "i am deply"
+    steps:
+      - name: deploy
+        run: echo "i am deploy"
+
 
 
 

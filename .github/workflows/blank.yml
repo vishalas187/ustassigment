@@ -12,7 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      run: echo "i am happy"
+      - name: hi
+        run: echo "i am happy"
 
 
 
